@@ -1,0 +1,83 @@
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+body > div{
+    background-color: rgba(0, 0, 0, 0.507);
+    margin: 2% 20%;
+    font-family: century gothic;
+    border-radius: 5%;
+    padding-bottom: 10%;
+    padding-top: 2%;
+}
+
+.logo{
+    width: 200px;
+    margin-top: 60px;
+}
+
+h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #00dd00;
+}
+
+header div:only-of-type{
+    background-color: #00dd00;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+
+}
+
+
+
+h2{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.via{
+    font-size: 13px;
+}
+
+div span:last-of-type{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+#gino22 hr:only-of-type{
+    margin-top: 0%;
+    border: 12px solid rgb(211, 150, 38);
+    border-radius: 5px;
+    margin-right: 60%;
+}
+
+#mike24 hr:only-of-type{
+    margin-top: 0%;
+    border: 12px solid rgb(52, 194, 34);
+    border-radius: 5px;
+    margin-right: 30%;
+}
+
+#fede154 hr:only-of-type{
+    margin-top: 0%;
+    border: 12px solid rgb(194, 58, 34);
+    border-radius: 5px;
+    margin-right: 80%;
+}
